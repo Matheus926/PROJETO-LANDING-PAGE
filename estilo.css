@@ -1,0 +1,359 @@
+body{
+    margin: 0 auto;
+    padding: 0;                  
+    font-family: serif;
+    background-color: white; 
+}
+
+header{
+    box-sizing: border-box; 
+    height: 105px;                    
+    width: 100%;
+    background-color: #4B0082 ;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+/* alinhamento da logo e fit flow */
+.container-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Tamanho e posição da img logo*/
+#logo{
+    height: 95px;
+    width: 95px;                
+    padding-left: 40px;
+    align-items: center;
+}
+
+#fitflow{
+    padding-left: 20px;       
+    color: white;
+    font-size: 35px;
+    font-family: 'roboto';
+}
+   
+
+/* alinhamento da lista navegação */
+.menu{
+    display: flex;                   
+    gap: 50px;
+    justify-content: center;
+    align-items: center;     
+}
+
+.navegacao{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;         
+    font-size: 22px;
+    font-family: 'roboto';             /*estilo da fonte e tamanho*/
+}
+
+a{
+    text-decoration: none;        /*remover sublinhado da tag a */
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+header img{
+    height: 50px;                
+    width: 50px; 
+}
+
+#logo-facebook{
+    height: 38px;                
+    width: 38px; 
+}
+
+/*alinhamento dos icones da redes sociais*/
+.redes-sociais{
+    display: flex;
+    align-items: center;              
+    gap: 20px;
+    padding-right: 40px;                 
+}
+
+/* Main */
+main{
+    display: flex;                       
+    justify-content: space-evenly;
+    padding-top: 65px; 
+           
+}
+
+/*tamanho da fonte*/
+#frase-main-1{
+    line-height: 0.4;   
+    font-size: 40px; 
+    color:#4B0082;
+    font-family: sans-serif;
+}
+
+#frase-main-2{
+    font-size: 33px;
+    font-family: sans-serif;      
+}
+
+/* imagem da seção main */
+.foto-yoga{
+    margin-top: -60px;
+    margin-left: 70px;
+    height: 500px;
+    width: 500px;
+    background-image: url(Imagens/fundodaimagem-main.png);
+    background-size: 90% 90%; 
+    background-position: right center; 
+    background-repeat: no-repeat;     
+}
+
+/* formulario em coluna e tamanho */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+/* ajuste do botao do formulario */
+#botao-enviar{
+    width: 130px; 
+    height: 60px; 
+    background-color: #4B0082;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;
+    margin-top: 15px;
+}
+
+ /*configuração formulario*/
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius:15px;      
+    border: solid 2px;
+    font-size: 15px;
+}
+
+/* altura minima de todas seções */
+section{
+    min-height: 70vh;   
+}
+
+.foto-secao{
+    height: 450px;
+    width: 450px;
+    padding-left: 10px;
+    background-image: url(Imagens/fundodaimagem-sobre.png);
+    background-repeat: no-repeat; 
+}
+
+/* seçao sobre */
+.container-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* h1  da secao sobre */
+.titulo-sobre{
+    margin-bottom: 45px;
+    color: #4B0082;
+    font-size: 33px;
+    font-family: 'verdana';  
+}
+
+/* h2 da secao sobre */
+.texto-2{
+    font-size: 22px;
+    flex-wrap: wrap;
+    padding-right: 80px;
+    line-height: 45px;
+    font-family: 'Trebuchet MS';
+}
+
+/*Seção programas */
+.container-programas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+
+.titulo-programas{
+    text-align: center;
+    font-size: 33px;
+    color: #4B0082; 
+    font-family: 'verdana';   
+}
+
+#programas h3 {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif; 
+}
+
+/* tamanho das imagens */
+#flor-de-lotus{
+    height: 200px;
+    width: 200px;
+}
+
+#tapete-yoga{
+    height: 200px;
+    width: 200px;
+}
+
+#yoga-imagem{
+    height: 200px;
+    width: 200px;
+}
+
+/* Seção video do youtube */
+.video-yoga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;    
+}
+
+iframe{
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;   
+}
+
+   
+  /* Seção de Planos */
+
+#planos{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 5px;
+    background-color: #4B0082;
+    min-height: 111vh;
+}
+
+#planos h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 30px 20px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: center;
+    height: 300px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    color: #4b0082;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .card p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .card ul li {
+    margin: 8px 0;
+  }
+  
+  .card button {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .card button:hover {
+    background-color: #4b0082;
+  }
+
+/* tamanho do Footer */
+footer{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+}
+
+.container-footer {
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+/* Tamanho dos indicies do footer */
+#principal{
+    font-size: 22px;
+    color:#4B0082 
+}
+
+
+.coluna-footer li {
+    margin-bottom: 8px;  
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+footer a:hover{
+    color: #4b0082;
+}
