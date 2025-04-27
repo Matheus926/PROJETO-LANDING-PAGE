@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" /> <!-- anexado css no html -->
+    <link rel="icon" type="image/x-icon" href="Imagens/favicon.ico" /> <!-- icone da pagina -->
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Fit Flow Studios</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-logo">
+            <img src="Imagens/LogoFitFlow.png" alt="Logo da empresa" id="logo" />
+            <h1 id="fitflow">Fit Flow Studios</h1>
+        </div>
+
+        <nav class="navegacao">
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#planos">Planos</a></li>
+            </ul>
+        </nav>
+
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com/FlowYoga/" target="_blank">
+                <img src="Imagens/facebook_logo.png" alt="Ícone Facebook" id="logo-facebook" />
+            </a>
+            <a href="https://www.instagram.com/flowyogabr/" target="_blank">
+                <img src="Imagens/logo-instagram.png" alt="Ícone Instagram" />
+            </a>
+            <a href="https://www.linkedin.com/in/matheuslourenco7/" target="_blank">
+                <img src="Imagens/linkedin-logo.png" alt="Ícone Linkedin" />
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <aside>
+            <div>
+                <h2 id="frase-main-1">Inscreva-se agora</h2>
+                <h2 id="frase-main-2">No Fit Flow Studios</h2>
+            </div>
+            <form action="#planos">
+                <input type="text" placeholder="Nome" required />
+                <input type="email" placeholder="E-mail" required />
+                <button type="submit" id="botao-enviar">Enviar</button>
+            </form>
+        </aside>
+
+        <article>
+            <img src="Imagens/yoga-fit.png" alt="Mulher alongando" class="foto-yoga" />
+        </article>
+    </main>
+
+    <section id="sobre">
+        <div class="container-sobre">
+            <img src="Imagens/yoga-seçãoSobre.png" alt="Mulher meditando" class="foto-secao" />
+            <div>
+                <h1 class="titulo-sobre">Quem somos?</h1>
+                <p class="texto-2">
+                    No Fit Flow Studios, acreditamos que o yoga é uma prática transformadora que conecta corpo, mente e
+                    espírito.
+                    Nosso estúdio oferece aulas para todos os níveis, promovendo um estilo de vida saudável e
+                    consciente.
+                    Junte-se a nós e descubra a sua essência.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="programas">
+        <h1 class="titulo-programas">Nossos programas</h1>
+        <div class="container-programas">
+            <div class="item-1">
+                <img src="Imagens/flordelotus.png" alt="Flor de lótus" id="flor-de-lotus" />
+                <h3>Mindfulness</h3>
+            </div>
+            <div class="item-2">
+                <img src="Imagens/tapeteYogaPrograma.png" alt="Tapete de yoga" id="tapete-yoga" />
+                <h3>Pilates</h3>
+            </div>
+            <div class="item-3">
+                <img src="Imagens/iconeSeçaoPrograma.png" alt="Ícone mulher meditando" id="yoga-imagem" />
+                <h3>Yoga On-Demand</h3>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="video-yoga">
+            <iframe src="https://www.youtube.com/embed/FIfskHL1jpM?si=PpDA5wm0lsmuTq7n" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <section id="planos">
+        <h2>Escolha seu Plano</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Plano Mensal</h3>
+                <p>R$ 49,90/mês</p>
+                <ul>
+                    <li>Aulas ilimitadas</li>
+                    <li>Acesso a aulas exclusivas</li>
+                    <li>Cancelamento fácil</li>
+                </ul>
+                <button>Assinar</button>
+            </div>
+            <div class="card">
+                <h3>Plano Semestral</h3>
+                <p>R$ 269,90</p>
+                <ul>
+                    <li>Economize 10%</li>
+                    <li>Aulas ilimitadas</li>
+                    <li>Conteúdos premium</li>
+                </ul>
+                <button>Assinar</button>
+            </div>
+            <div class="card">
+                <h3>Plano Anual</h3>
+                <p>R$ 499,90</p>
+                <ul>
+                    <li>Economize 15%</li>
+                    <li>Consultoria individual</li>
+                    <li>Conteúdo vitalício</li>
+                </ul>
+                <button>Assinar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-footer">
+            <ul class="coluna-footer">
+                <li id="principal">Contato:</li>
+                <li>Endereço: Rua Alameda, 123</li>
+                <li>Telefone: (32) 9999-9999</li>
+                <li>Email: studiofitflow@gmail.com</li>
+            </ul>
+            <ul class="coluna-footer">
+                <li id="principal">Mapa do site</li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#planos">Planos</a></li>
+            </ul>
+            <ul class="coluna-footer">
+                <li id="principal">Redes sociais</li>
+                <li><a href="https://www.instagram.com/flowyogabr/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/FlowYoga/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/matheuslourenco7/" target="_blank">Linkedin</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
